@@ -1,0 +1,36 @@
+/* Mobile default styles go here (no media query needed) */
+
+/* Small devices (phones landscape / large phones) */
+@media (max-width: 480px) {
+  .navbar-nav{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+  }
+ }
+
+/* Tablets */
+@media (max-width: 768px) { 
+  
+}
+
+/* Laptops */
+@media (max-width: 1024px) {
+  
+ }
+
+/* Desktops */
+@media (max-width: 1400px) {
+   .collapse{
+     display: flex;
+     justify-content: center;
+  }
+  .navbar-nav{
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav-item{
+    margin: 0px 30px;
+  }
+
+ }
